@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "==3.0.1"
+scipy = "==1.17.1"
+matplotlib = "==3.10.8"
+databases-companion = {ref = "main", git = "ssh://git@github.com/Envrio-hub/databases_companion.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.10"
